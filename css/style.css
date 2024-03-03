@@ -1,0 +1,16 @@
+:root {
+--headercolor: #FF993A;
+--backgroundcolor: #FFE4CC;
+--red: #FF463A;
+--footercolor: #181818;
+--cards: #EFEFEF;
+}
+
+.header {}
+
+.header-container {}
+
+.logo {}
+
+.header-text {}
+
