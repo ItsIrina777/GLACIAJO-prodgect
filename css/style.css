@@ -5,12 +5,60 @@
 --footercolor: #181818;
 --cards: #EFEFEF;
 }
+/* header */
 
-.header {}
+/* .header {}
 
-.header-container {}
+.header-container {} */
 
-.logo {}
+.logo {
+    height: 80px;
+    width: 80px;
+}
 
-.header-text {}
+.header-text {
+    color: var(--headercolor);
+}
 
+/* .header-item {} */
+
+.header-item:hover {
+    color: var(--headercolor);
+}
+
+/* hero */
+
+.hero-container {
+    background-color: var(--backgroundcolor);
+}
+
+/* .hero-mini-text {}
+
+.hero-title {}
+
+.hero-text {}
+
+.hero-button {} */
+
+.hero-img {
+    height: 758px;
+    width: 501px;
+}
+
+/* .popular-items-container {}
+
+.box-1-list {}
+
+.box-1-item {}
+
+.box-1-title {}
+
+.box-1-text {}
+
+.box-1-button {} */
+
+
+
+.ice-cream-container {
+    background-color: var(--backgroundcolor);
+}
