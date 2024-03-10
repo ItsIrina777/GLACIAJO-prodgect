@@ -1,64 +1,286 @@
 :root {
---headercolor: #FF993A;
---backgroundcolor: #FFE4CC;
---red: #FF463A;
---footercolor: #181818;
---cards: #EFEFEF;
+    --headercolor: #FF993A;
+    --backgroundcolor: #FFE4CC;
+    --red: #FF463A;
+    --footercolor: #181818;
+    --cards: #EFEFEF;
 }
-/* header */
 
-/* .header {}
 
-.header-container {} */
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+   /* border: solid red;*/
+}
+
+.header 
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
 
 .logo {
     height: 80px;
     width: 80px;
+    margin-right: 37px;
 }
 
 .header-text {
     color: var(--headercolor);
 }
 
-/* .header-item {} */
+.header-list {
+    display: flex;
+    gap: 65px;
+}
+
+.header-item:first-child {
+    margin-left: 188px;
+}
 
 .header-item:hover {
     color: var(--headercolor);
 }
 
-/* hero */
-
 .hero-container {
     background-color: var(--backgroundcolor);
 }
 
-/* .hero-mini-text {}
+.hero-mini-text {
+    font-size: smaller;
+    color: var(--headercolor);
+    padding-top: 125px;
+    padding-left: 150px;
+    margin-bottom: 20px;
+    margin-right: 698px;
+}
 
-.hero-title {}
+.hero-title {
+    color: var(--red);
+    width: auto;
+    height: auto;
+    padding-left: 150px;
+    margin-bottom: 45px;
+    margin-right: 671px;
 
-.hero-text {}
+}
 
-.hero-button {} */
+.hero-text {
+    width: auto;
+    height: auto;
+    padding-left: 150px;
+    margin-bottom: 45px;
+    margin-right: 417px;
+
+}
+
+/* .hero-button {
+    color: white;
+    background-color: var(--red);
+    width: 163px;
+    height: 57px;
+    font-size: 20px;
+    letter-spacing: 0.96px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.hero-button:hover {
+    color: var(--red);
+    background-color: white;
+}
 
 .hero-img {
     height: 758px;
     width: 501px;
+    margin-left: 417px;
+    margin-right: 325px;
+    margin-bottom: 9px;
+    margin-top: 9px;
 }
 
-/* .popular-items-container {}
+.box-1-item {
+    margin-top: 40px;
+font-weight: 700;
+font-size: 32px;
+text-align: center;
+color: var(-);
+margin-bottom: 25px;
+}
 
-.box-1-list {}
+.box-1-title {
+    color: var(--red);
+}
 
-.box-1-item {}
+.box-1-text {
+    font-size: smaller;
+}
 
-.box-1-title {}
+.box-1-button {
+    color: var(--cards);
+    width: 157px;
+    height: 53px;
+    border-color:#000;
+}
 
-.box-1-text {}
+.box-1-img {
+    width: 240px;
+    height: 420px;
+}
 
-.box-1-button {} */
+.box-2-list 
 
+.box-2-item 
 
+.box-2-title {
+    color: var(--red);
+}
+
+.box-2-text {
+    font-size: smaller;
+}
+
+.box-2-button {
+    color: var(--cards);
+    width: 157px;
+    height: 53px;
+    border-color:#000;
+}
+
+.box-2-img {
+    width: 240px;
+    height: 420px;
+}
 
 .ice-cream-container {
     background-color: var(--backgroundcolor);
+}
+
+.ice-cream-title {
+    color: var(--red);
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.ice-cream-text {
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.ice-cream-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ice-cream-list:first-child {
+    padding-top: 68px;
+    margin-bottom: 20px;
+
+}
+
+.ice-cream-img {
+    width: 390px;
+    height: 300px;
+}
+
+.card-list {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px; 
+}
+
+.card-item {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border-radius: 10px;
+    width: 527px;
+    height: 348px;
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.25);
+    background: #fff;
+}
+
+.card-item:hover {
+background:var(--red);
+transition: 0.5s ease-in;
+transition: 0.5s ease-out;
+}
+
+.card-item:hover+.card-title:hover {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.card-img {
+    width: 100px;
+    height: 100px;
+}
+
+.card-title {
+margin-top: 40px;
+font-weight: 700;
+font-size: 32px;
+text-align: center;
+color: #ff463a;
+margin-bottom: 25px;
+}
+
+.card-link {
+font-weight: 400;
+font-size: 24px;
+text-align: center;
+color: #000;
+}
+
+.card-phone-img {
+    width: 100px;
+    height: 100px;
+}
+
+.card-address-img {
+    width: 100px;
+    height: 100px;
+}
+
+.card-address {
+font-weight: 400;
+font-size: 24px;
+text-align: center;
+color: #000;
+}
+
+
+.footer {
+    background-color: var(--footercolor);
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-logo-text {
+    color: var(--headercolor);
+
+}
+
+.footer-div {
+    display: flex;
+}
+
+.footer-text {
+    color: #ffffff;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: auto;
+    margin-left: 1014px;
 }

@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>проєкт</title>
+    <title>GLACIAJO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/reset.css">
 </head>
@@ -13,9 +16,9 @@
 <body>
     <!--header-->
     <header class="header">
-        <div class="header-container">
+        <div class="container header-container">
             <img class="logo" src="./image/logo.png" alt="logo">
-            <a class="header-text" href="/index.html">GLACIAJO</a>
+            <p class="header-text">GLACIAJO</p>
             <ul class="header-list">
                 <li class="header-item">Home</li>
                 <li class="header-item">About Us</li>
@@ -29,18 +32,20 @@
     </header>
     <main>
         <!--hero-->
-        <div class="hero-container">
-            <p class="hero-mini-text">Welcome To Our Ice Cream Shop</p>
-            <h1 class="hero-title">Specializing Strawberry & Chocolate</h1>
-            <p class="hero-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nihil architecto laborum eaquel Deserunt maxime, minus
-                quas molestiae reiciendis. Nihil architecto laborum eaque.
-                Deserunt maxime minus quas.</p>
-            <button class="hero-button" type="button">Order Now</button>
-            <img class="hero-img" src="./image/hero-ice-cream.png" alt="hero-ice-cream">
+        <div class="container hero-container">
+            <div class="hero-div">
+                <p class="hero-mini-text">Welcome To Our Ice Cream Shop</p>
+                <h1 class="hero-title">Specializing Strawberry & Chocolate</h1>
+                <p class="hero-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nihil architecto laborum eaquel Deserunt maxime, minus
+                    quas molestiae reiciendis. Nihil architecto laborum eaque.
+                    Deserunt maxime minus quas.</p>
+               <!-- <button class="hero-button" type="button">Order Now</button> -->
+                <img class="hero-img" src="./image/hero-ice-cream.png" alt="hero-ice-cream">
+            </div>
         </div>
         <!--popular-items-->
-        <div class="popular-items-container">
+     <!--   <div class="container">
             <ul class="box-1-list">
                 <li class="box-1-item">
                     <h2 class="box-1-title">Popular items</h2>
@@ -55,18 +60,55 @@
                     <p class="box-2-text">35 items</p>
                     <button class="box-2-button" type="button">Shop Now</button>
                     <img class="box-2-img" src="./image/popular-item2.png" alt="popular-ice-cream-img2">
-        </div>
+        </div> -->
         <!--ice-cream-->
-        <div class="ice-cream-container">
-
+        <div class="container">
+            <h1 class="ice-cream-title">Top Flavor's of Our Ice Cream</h1>
+            <p class="ice-cream-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt dolore magna aliqua.</p>
+            <ul class="ice-cream-list">
+                <li> <img class="ice-cream-img" src="./image/ice-cream1.png" alt="ice-cream1"> </li>
+                <li> <img class="ice-cream-img" src="./image/ice-cream2.png" alt="ice-cream2"> </li>
+                <li> <img class="ice-cream-img" src="./image/ice-cream3.png" alt="ice-cream3"> </li>
+                <li> <img class="ice-cream-img" src="./image/ice-cream4.png" alt="ice-cream4"> </li>
+                <li> <img class="ice-cream-img" src="./image/ice-cream5.png" alt="ice-cream5"> </li>
+                <li> <img class="ice-cream-img" src="./image/ice-cream6.png" alt="ice-cream6"> </li>
+            </ul>
         </div>
         <!--cards-->
-        <div class="cards-container">
-
+        <div class="container">
+            <ul class="card-list">
+                <li class="card-item">
+                    <img class="card-img" src="./image/email.png" alt="card email">
+                    <h3 class="card-title">Email Us:</h3>
+                    <a class="card-link" href="mailto:hello@example.com">hello@example.com</a>
+                    <a class="card-link" href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li class="card-item">
+                    <img class="card-img" src=".//image/phone-call.png" alt="card phone call">
+                    <h3 class="card-title">Call Us:</h3>
+                    <a class="card-link" href="callto:+123-456-789">+123-456-789</a>
+                    <a class="card-link" href="callto:+153-567-984">+153-567-984</a>
+                </li>
+                <li class="card-item">
+                    <img class="card-img" src=".//image/location.png" alt="card address">
+                    <h3 class="card-title">Address:</h3>
+                    <address class="card-address">Flatiron Building, 175 5th Ave, New York, NY 10010, USA
+                    </address>
+                </li>
+            </ul>
         </div>
     </main>
     <!--footer-->
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="container">
+            <div class=" footer-div">
+            <img class="logo" src="./image/logo.png" alt="logo">
+            <p class="footer-logo-text">GLACIAJO</p>
+            <p class="footer-text">© 2023 All Rights Reserved. Privacy Policy</p>
+        </div>
+        </div>
+    </footer>
 </body>
 
 </html>
